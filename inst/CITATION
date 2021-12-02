@@ -7,8 +7,8 @@ citEntry(
   journal  = "Bioinformatics",
   year     = "2021",
   volume   = "btab658",
-  number   = ,
-  pages    = ,
+  number   = NULL,
+  pages    = NULL,
   url      = "https://doi.org/10.1093/bioinformatics/btab658",
   textVersion = paste(
 
