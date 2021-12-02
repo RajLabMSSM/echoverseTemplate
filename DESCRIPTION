@@ -1,6 +1,6 @@
-Package: echoverse_template
+Package: echoverseTemplate
 Type: Package
-Title: echoverse module: <title>
+Title: echoverse module: echoversePackageTitle
 Version: 0.99.0
 Authors@R: 
     c(person(given = "Brian",
@@ -19,17 +19,17 @@ Authors@R:
            email = "towfique.raj@mssm.edu",
            comment = c(ORCID = "0000-0002-9355-5704"))
            ) 
-Description: echoverse module: <description>.
-URL: https://github.com/RajLabMSSM/echoverse_template
-BugReports: https://github.com/RajLabMSSM/echoverse_template/issues
+Description: echoverse module: echoversePackageDescription.
+URL: https://github.com/RajLabMSSM/echoverseTemplate
+BugReports: https://github.com/RajLabMSSM/echoverseTemplate/issues
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.1)
 biocViews:
-Imports:  
-    dplyr,
-    data.table,
-    utils, 
+    Genetics, FunctionalGenomics, SystemsBiology
+Imports: 
+    utils,
+    dplyr
 Suggests:
     markdown,
     rmarkdown,
@@ -38,8 +38,7 @@ Suggests:
     BiocStyle,
     covr,
     testthat (>= 3.0.0),
-    badger,
-    here
+    badger
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 License: GPL-3
