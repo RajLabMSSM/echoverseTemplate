@@ -49,14 +49,15 @@ dir.create(dirname(filename), showWarnings = FALSE, recursive = TRUE)
 ## Bat logo
 
 Download bat logo from the 
-[*Fine_Mapping*](https://github.com/RajLabMSSM/Fine_Mapping) GitHub repo.
+[*echoverseTemplate*](https://github.com/RajLabMSSM/echoverseTemplate/releases/tag/latest)
+GitHub Release.
 
 ```{r}
 tmp <- tempfile()
 #### Side view ####
-URL <- "https://github.com/RajLabMSSM/Fine_Mapping/raw/master/echolocatoR/images/bat_silhouette.png"   
+URL <- "https://github.com/RajLabMSSM/echoverseTemplate/releases/download/latest/bat_silhouette.png"   
 #### Front view ####
-# URL <- "https://github.com/RajLabMSSM/Fine_Mapping/raw/master/echolocatoR/images/bat_silhouette_front.png"   
+# URL <- "https://github.com/RajLabMSSM/echoverseTemplate/releases/download/latest/bat_silhouette_front.png"   
 download.file(URL, tmp)
 ```
 
@@ -64,7 +65,7 @@ download.file(URL, tmp)
 
 Create background with `ggplot2`.
 
-```{r}
+```{r, eval=FALSE}
 set.seed(1234)
 n_bats <- 20
 d <- data.frame(x = -rexp(n_bats, rate = 3),
@@ -74,7 +75,12 @@ d <- data.frame(x = -rexp(n_bats, rate = 3),
                 bsize = abs(x*y^2)) %>%
   dplyr::arrange(dplyr::desc(x), dplyr::desc(y))
 qplot(d$x, d$y, size=d$bsize)
+```
 
+Import data points for reproducibility.
+
+```{r}
+d <- data.table::fread("https://github.com/RajLabMSSM/echoverseTemplate/releases/download/latest/echoverse_points.csv.gz")
 ```
 
  
