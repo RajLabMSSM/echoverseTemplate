@@ -1,4 +1,4 @@
-README
+<img src='inst/hex/hex.png' height='300'>
 ================
 <h4>
 Author: <i>Brian M. Schilder</i>
@@ -18,9 +18,7 @@ status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/R-CMD-check-bi
 GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-project.org/web/licenses/GPL-3)
 <!-- badges: end -->
 
-# echoverse: `echoverseTemplate`
-
-## echoverse module: echoversePackageDescription.
+## echoversePackageDescription.
 
 If you use `echoverseTemplate`, please cite:
 

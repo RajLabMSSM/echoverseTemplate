@@ -1,16 +1,16 @@
-```{r, echo=FALSE, include=FALSE}
-pkg <- read.dcf("DESCRIPTION", fields = "Package")[1]
-description <- read.dcf("DESCRIPTION", fields = "Description")[1]
-hex_url <- paste0('https://github.com/RajLabMSSM/',pkg,'raw/master/inst/hex/',pkg,'.png')
-```
-
 ---
-title: "<img src='`r hex_url`' height='300'>"
+title: "<img src='inst/hex/hex.png' height='300'>"
 author: "<h4>Author: <i>Brian M. Schilder</i></h4>" 
 date: "<h4>Updated: <i>`r format( Sys.Date(), '%b-%d-%Y')`</i></h4>"
 output:
   github_document
 ---
+
+```{r, echo=FALSE, include=FALSE}
+pkg <- read.dcf("DESCRIPTION", fields = "Package")[1]
+description <- read.dcf("DESCRIPTION", fields = "Description")[1]
+```
+
 
 <!-- badges: start -->
 `r badger::badge_github_version(color = "black")` 
