@@ -1,14 +1,4 @@
-<img src='inst/hex/hex.png' height='300'>
-================
-<h4>
-Author: <i>Brian M. Schilder</i>
-</h4>
-<h4>
-Updated: <i>Dec-03-2021</i>
-</h4>
-
-<!-- badges: start -->
-
+<img src='https://github.com/RajLabMSSM/echoverseTemplate/raw/master/inst/hex/hex.png' height='300'><br><br>
 [![](https://img.shields.io/badge/devel%20version-0.99.0-black.svg)](https://github.com/RajLabMSSM/echoverseTemplate)
 [![R build
 status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/RajLabMSSM/echoverseTemplate/actions)
@@ -16,7 +6,12 @@ status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/R-CMD-check-bi
 [![](https://codecov.io/gh/RajLabMSSM/echoverseTemplate/branch/master/graph/badge.svg)](https://codecov.io/gh/RajLabMSSM/echoverseTemplate)
 [![License:
 GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-project.org/web/licenses/GPL-3)
-<!-- badges: end -->
+<h5>
+Author: <i>Brian M. Schilder</i>
+</h5>
+<h5>
+README updated: <i>Dec-03-2021</i>
+</h5>
 
 ## echoversePackageDescription.
 
@@ -44,7 +39,7 @@ library(echoverseTemplate)
 
 <hr>
 
-## Creator
+## Contact
 
 <a href="https://bschilder.github.io/BMSchilder/" target="_blank">Brian
 M. Schilder, Bioinformatician II</a>  

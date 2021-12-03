@@ -1,7 +1,13 @@
 ---
-title: "<img src='inst/hex/hex.png' height='300'>"
-author: "<h4>Author: <i>Brian M. Schilder</i></h4>" 
-date: "<h4>Updated: <i>`r format( Sys.Date(), '%b-%d-%Y')`</i></h4>"
+title: ""  
+author: "<img src='https://github.com/RajLabMSSM/`r read.dcf('DESCRIPTION', fields = 'Package')[1]`/raw/master/inst/hex/hex.png' height='300'><br><br>
+        `r badger::badge_github_version(color = 'black')` 
+        `r badger::badge_github_actions(action = 'R-CMD-check-bioc')`
+        `r badger::badge_last_commit()`
+        `r badger::badge_codecov()` 
+        `r badger::badge_license()` 
+        <h5>Author: <i>Brian M. Schilder</i></h5>" 
+date: "<h5>README updated: <i>`r format( Sys.Date(), '%b-%d-%Y')`</i></h5>"
 output:
   github_document
 ---
@@ -10,16 +16,7 @@ output:
 pkg <- read.dcf("DESCRIPTION", fields = "Package")[1]
 description <- read.dcf("DESCRIPTION", fields = "Description")[1]
 ```
-
-
-<!-- badges: start -->
-`r badger::badge_github_version(color = "black")` 
-`r badger::badge_github_actions(action = "R-CMD-check-bioc")`
-`r badger::badge_last_commit()`
-`r badger::badge_codecov()` 
-`r badger::badge_license()` 
-<!-- badges: end -->
-
+ 
 ## `r gsub("echoverse module: ","", description)`
 
 If you use ``r pkg``, please cite: 
@@ -43,7 +40,7 @@ library(`r pkg`)
 
 <hr>
 
-## Creator
+## Contact
 
 <a href="https://bschilder.github.io/BMSchilder/" target="_blank">Brian
 M. Schilder, Bioinformatician II</a>  

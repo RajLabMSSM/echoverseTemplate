@@ -43,7 +43,6 @@ Create file path.
 
 ```{r}
 filename <- here::here("inst/hex/hex.png")
-# filename <- file.path(tempdir(), paste0(pkg,".png"))
 dir.create(dirname(filename), showWarnings = FALSE, recursive = TRUE)
 ```
 
