@@ -11,8 +11,8 @@ vignette: >
 ---
 
 ```{r, echo=FALSE, include=FALSE}
-pkg <- read.dcf("DESCRIPTION", fields = "Package")[1]
-description <- read.dcf("DESCRIPTION", fields = "Description")[1]
+pkg <- read.dcf(here::here("DESCRIPTION"), fields = "Package")[1]
+description <- read.dcf(here::here("DESCRIPTION"), fields = "Description")[1]
 ```
 
 You can make awesome hex stickers for your R packages using:
