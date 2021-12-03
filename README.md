@@ -1,4 +1,4 @@
-<img src='https://github.com/RajLabMSSM/echoverseTemplate/raw/master/inst/hex/hex.png' height='300'><br><br>
+<img src='https://github.com/RajLabMSSM/echoverseTemplate/raw/main/inst/hex/hex.png' height='300'><br><br>
 [![](https://img.shields.io/badge/devel%20version-0.99.0-black.svg)](https://github.com/RajLabMSSM/echoverseTemplate)
 [![R build
 status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/RajLabMSSM/echoverseTemplate/actions)
@@ -13,7 +13,11 @@ Author: <i>Brian M. Schilder</i>
 README updated: <i>Dec-03-2021</i>
 </h5>
 
-## echoversePackageDescription.
+## `echoverseTemplate`: echoversePackageDescription.
+
+This R package is part of the *echoverse* suite that supports
+[`echolocatoR`](https://github.com/RajLabMSSM/echolocatoR): an automated
+genomic fine-mapping pipeline.
 
 If you use `echoverseTemplate`, please cite:
 
