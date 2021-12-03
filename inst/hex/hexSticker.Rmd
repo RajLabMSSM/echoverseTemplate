@@ -94,7 +94,7 @@ print(gg_bats)
 
 ## hexSticker 
 
-```{r, eval=FALSE}    
+```{r}    
 s_size = 1
 stick <- hexSticker::sticker(
   subplot = gg_bats, 
