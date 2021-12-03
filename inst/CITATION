@@ -1,4 +1,4 @@
-citHeader("To cite echodata in publications use:")
+citHeader("To cite this echoverse package, please use:")
 
 citEntry(
   entry    = "Article",

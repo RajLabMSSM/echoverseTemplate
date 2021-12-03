@@ -4,7 +4,7 @@ README
 Author: <i>Brian M. Schilder</i>
 </h4>
 <h4>
-Updated: <i>Dec-02-2021</i>
+Updated: <i>Dec-03-2021</i>
 </h4>
 
 <!-- badges: start -->
@@ -24,10 +24,12 @@ GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-pro
 
 If you use `echoverseTemplate`, please cite:
 
-> Brian M Schilder, Jack Humphrey, Towfique Raj, echolocatoR: an
+> Brian M Schilder, Jack Humphrey, Towfique Raj (2021) echolocatoR: an
 > automated end-to-end statistical and functional genomic fine-mapping
-> pipeline, Bioinformatics, 2021;, btab658,
+> pipeline, *Bioinformatics*; btab658,
 > <https://doi.org/10.1093/bioinformatics/btab658>
+
+## Installation
 
 ``` r
 if(!require("remotes")) install.packages("remotes")
@@ -36,9 +38,11 @@ remotes::install_github("RajLabMSSM/echoverseTemplate")
 library(echoverseTemplate)
 ```
 
-## [Documentation website](https://rajlabmssm.github.io/echoverseTemplate)
+## Documentation
 
-## [Getting started vignette](https://rajlabmssm.github.io/echoverseTemplate/articles/echoverseTemplate)
+### [Website](https://rajlabmssm.github.io/echoverseTemplate)
+
+### [Getting started](https://rajlabmssm.github.io/echoverseTemplate/articles/echoverseTemplate)
 
 <hr>
 
