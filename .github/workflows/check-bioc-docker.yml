@@ -10,4 +10,4 @@ env:
 jobs:
   build:
   uses:
-    neurogenomics/r_workflows/.github/workflows/check-bioc-docker.yml
+    repo:neurogenomics/r_workflows/.github/workflows/check-bioc-docker.yml
