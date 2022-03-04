@@ -1,7 +1,7 @@
 Package: echoverseTemplate
 Type: Package
 Title: echoverse module: echoversePackageTitle
-Version: 0.99.0
+Version: 0.99.1
 Authors@R: 
     c(person(given = "Brian",
            family = "Schilder",

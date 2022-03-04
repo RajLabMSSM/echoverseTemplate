@@ -10,7 +10,7 @@ GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-pro
 Author: <i>Brian M. Schilder</i>
 </h5>
 <h5>
-README updated: <i>Dec-03-2021</i>
+README updated: <i>Mar-04-2022</i>
 </h5>
 
 ## `echoverseTemplate`: echoversePackageDescription.
