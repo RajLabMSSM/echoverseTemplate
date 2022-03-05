@@ -9,24 +9,27 @@
 #' 
 #' @param path Directory containing R files.
 #' @param pattern File name pattern to search for.
-#' @param packages Packages to install and load. 
+#' @param packages Packages to load. 
 #' @param ... Additional arguments passed to \link[base]{source}. 
 #' 
 #' @return Null 
 #' @keywords internal
 source_all <- function(path="R/",
                        pattern="*.R$",
-                       packages="dplyr", 
+                       packages = NULL, 
                        ...){   
     for(x in packages){ 
         require(x, character.only=TRUE)
     }
     #### Source all internal funcs at once ####
-    file.sources = list.files(path =path,
+    file.sources = list.files(path = path,
                               pattern = pattern, 
                               full.names = TRUE, ignore.case = TRUE)
-    message("Sourcing ",length(file.sources)," files.")
-    out <- vapply(X = file.sources, 
-                  FUN = function(x){try({source(x,...)})}, 
-                  FUN.VALUE = character(1))
+    if(length(file.sources)>0){
+        message("Sourcing ",length(file.sources)," files.")
+    } else {
+        message("No files found to source.")
+    }
+    out <- lapply(X = file.sources, 
+                  FUN = function(x){try({source(x,...)})})
 }

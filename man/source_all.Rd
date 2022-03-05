@@ -4,14 +4,14 @@
 \alias{source_all}
 \title{Source all functions}
 \usage{
-source_all(path = "R/", pattern = "*.R$", packages = "dplyr", ...)
+source_all(path = "R/", pattern = "*.R$", packages = NULL, ...)
 }
 \arguments{
 \item{path}{Directory containing R files.}
 
 \item{pattern}{File name pattern to search for.}
 
-\item{packages}{Packages to install and load.}
+\item{packages}{Packages to load.}
 
 \item{...}{Additional arguments passed to \link[base]{source}.}
 }
