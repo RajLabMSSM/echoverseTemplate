@@ -22,7 +22,7 @@ but is much slower)."><!-- mathjax --><script src="https://cdnjs.cloudflare.com/
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">echoverseTemplate</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.99.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.99.0</span>
       </span>
     </div>
 
@@ -66,7 +66,13 @@ but is much slower).</p>
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">source_all</span><span class="op">(</span>path <span class="op">=</span> <span class="st">"R/"</span>, pattern <span class="op">=</span> <span class="st">"*.R$"</span>, packages <span class="op">=</span> <span class="cn">NULL</span>, <span class="va">...</span><span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">source_all</span><span class="op">(</span>
+  path <span class="op">=</span> <span class="st">"R/"</span>,
+  pattern <span class="op">=</span> <span class="st">"*.R$"</span>,
+  packages <span class="op">=</span> <span class="cn">NULL</span>,
+  envir <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/environment.html" class="external-link">globalenv</a></span><span class="op">(</span><span class="op">)</span>,
+  <span class="va">...</span>
+<span class="op">)</span></code></pre></div>
     </div>
 
     <div id="arguments">
@@ -77,8 +83,14 @@ but is much slower).</p>
 <dd><p>File name pattern to search for.</p></dd>
 <dt>packages</dt>
 <dd><p>Packages to load.</p></dd>
+<dt>envir</dt>
+<dd><p>an <span style="R">R</span> object specifying the environment in which the
+    expressions are to be evaluated.  May also be a list or an integer.
+    The default value <code>NULL</code> corresponds to evaluation in the base
+    environment.  This is probably not what you want; you should
+    typically supply an explicit <code>envir</code> argument.</p></dd>
 <dt>...</dt>
-<dd><p>Additional arguments passed to <a href="https://rdrr.io/r/base/source.html" class="external-link">source</a>.</p></dd>
+<dd><p>Additional arguments passed to <a href="https://rdrr.io/r/base/sys.source.html" class="external-link">sys.source</a>.</p></dd>
 </dl></div>
     <div id="value">
     <h2>Value</h2>
