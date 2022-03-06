@@ -23,10 +23,11 @@ source_all <- function(path="R/",
     for(x in packages){ 
         require(x, character.only=TRUE)
     }
-    #### Source all internal funcs at once ####
+    #### Source all internal funcs at once #### 
     file.sources = list.files(path = path,
                               pattern = pattern, 
                               full.names = TRUE, ignore.case = TRUE)
+    
     if(length(file.sources)>0){
         message("Sourcing ",length(file.sources)," files.")
     } else {
