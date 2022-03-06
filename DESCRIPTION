@@ -39,7 +39,9 @@ Suggests:
     testthat (>= 3.0.0),
     badger,
     hexSticker,
-    utils
+    utils,
+    rlang,
+    methods
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 License: GPL-3

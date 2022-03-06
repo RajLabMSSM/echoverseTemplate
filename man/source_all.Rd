@@ -4,7 +4,13 @@
 \alias{source_all}
 \title{Source all functions}
 \usage{
-source_all(path = "R/", pattern = "*.R$", packages = NULL, ...)
+source_all(
+  path = "R/",
+  pattern = "*.R$",
+  packages = NULL,
+  envir = globalenv(),
+  ...
+)
 }
 \arguments{
 \item{path}{Directory containing R files.}
@@ -13,7 +19,13 @@ source_all(path = "R/", pattern = "*.R$", packages = NULL, ...)
 
 \item{packages}{Packages to load.}
 
-\item{...}{Additional arguments passed to \link[base]{source}.}
+\item{envir}{an \R object specifying the environment in which the
+    expressions are to be evaluated.  May also be a list or an integer.
+    The default value \code{NULL} corresponds to evaluation in the base
+    environment.  This is probably not what you want; you should
+    typically supply an explicit \code{envir} argument.}
+
+\item{...}{Additional arguments passed to \link[base]{sys.source}.}
 }
 \value{
 Null

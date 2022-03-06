@@ -10,13 +10,15 @@
 #' @param path Directory containing R files.
 #' @param pattern File name pattern to search for.
 #' @param packages Packages to load. 
-#' @param ... Additional arguments passed to \link[base]{source}. 
+#' @param ... Additional arguments passed to \link[base]{sys.source}. 
+#' @inheritParams base::sys.source
 #' 
 #' @return Null 
 #' @keywords internal
 source_all <- function(path="R/",
                        pattern="*.R$",
                        packages = NULL, 
+                       envir = globalenv(),
                        ...){   
     for(x in packages){ 
         require(x, character.only=TRUE)
@@ -31,5 +33,5 @@ source_all <- function(path="R/",
         message("No files found to source.")
     }
     out <- lapply(X = file.sources, 
-                  FUN = function(x){try({source(x,...)})})
+                  FUN = function(x){try({sys.source(x,envir = envir, ...)})})
 }
