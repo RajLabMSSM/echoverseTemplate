@@ -3,14 +3,14 @@
 [![R build
 status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/RajLabMSSM/echoverseTemplate/actions)
 [![](https://img.shields.io/github/last-commit/RajLabMSSM/echoverseTemplate.svg)](https://github.com/RajLabMSSM/echoverseTemplate/commits/master)
-[![](https://codecov.io/gh/RajLabMSSM/echoverseTemplate/branch/master/graph/badge.svg)](https://codecov.io/gh/RajLabMSSM/echoverseTemplate)
+[![](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate/branch/master/graph/badge.svg)](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate)
 [![License:
 GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-project.org/web/licenses/GPL-3)
 <h5>
 Author: <i>Brian M. Schilder</i>
 </h5>
 <h5>
-README updated: <i>Mar-04-2022</i>
+README updated: <i>Aug-27-2022</i>
 </h5>
 
 ## `echoverseTemplate`: echoversePackageDescription.
