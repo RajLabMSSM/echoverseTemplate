@@ -335,8 +335,7 @@ jobs:
           echo "packageVersion=${version}" >> $GITHUB_ENV
           echo $version
           
-          #### Set permissions for github ####
-          git config --global --add safe.directory '/__w/$packageNameOrig/$packageNameOrig/'
+          #### Set permissions for github #### 
           git config --global --add safe.directory '*'
           git config --local user.name "$GITHUB_ACTOR" 
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com" 
