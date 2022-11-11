@@ -23,7 +23,6 @@ Description: echoverse module: echoversePackageDescription.
 URL: https://github.com/RajLabMSSM/echoverseTemplate
 BugReports: https://github.com/RajLabMSSM/echoverseTemplate/issues
 Encoding: UTF-8
-LazyData: true
 Depends: R (>= 4.1)
 biocViews:
     Genetics, FunctionalGenomics, SystemsBiology
@@ -42,7 +41,7 @@ Suggests:
     utils,
     rlang,
     methods
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 VignetteBuilder: knitr
 License: GPL-3
 Config/testthat/edition: 3
