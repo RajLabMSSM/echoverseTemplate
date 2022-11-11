@@ -45,5 +45,9 @@ jobs:
         run_pkgdown: ${{ true }}
         has_runit: ${{ false }}
         GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
+        run_docker: ${{ false }}
+        DOCKER_USERNAME: bschilder
+        DOCKER_ORG: bschilder
+        DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
         runner_os: ${{ runner.os }}
         cache_version: cache-v1
