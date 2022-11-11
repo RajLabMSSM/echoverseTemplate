@@ -1,7 +1,7 @@
 <img src='https://github.com/RajLabMSSM/echoverseTemplate/raw/master/inst/hex/hex.png' height='300'><br><br>
 [![](https://img.shields.io/badge/devel%20version-0.99.0-black.svg)](https://github.com/RajLabMSSM/echoverseTemplate)
 [![R build
-status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/RajLabMSSM/echoverseTemplate/actions)
+status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/rworkflows/badge.svg)](https://github.com/RajLabMSSM/echoverseTemplate/actions)
 [![](https://img.shields.io/github/last-commit/RajLabMSSM/echoverseTemplate.svg)](https://github.com/RajLabMSSM/echoverseTemplate/commits/master)
 [![](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate/branch/master/graph/badge.svg)](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate)
 [![License:
@@ -10,7 +10,7 @@ GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-pro
 Author: <i>Brian M. Schilder</i>
 </h5>
 <h5>
-README updated: <i>Aug-27-2022</i>
+README updated: <i>Nov-11-2022</i>
 </h5>
 
 ## `echoverseTemplate`: echoversePackageDescription.
