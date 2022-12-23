@@ -6,12 +6,8 @@ status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/rworkflows/bad
 [![](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate/branch/master/graph/badge.svg)](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate)
 [![License:
 GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-project.org/web/licenses/GPL-3)
-<h5>
-Author: <i>Brian M. Schilder</i>
-</h5>
-<h5>
-README updated: <i>Nov-11-2022</i>
-</h5>
+¶ <h5> ¶ Author: <i>Brian M. Schilder</i> ¶ </h5>
+<h5> ¶ README updated: <i>Dec-22-2022</i> ¶ </h5>
 
 ## `echoverseTemplate`: echoversePackageDescription.
 
