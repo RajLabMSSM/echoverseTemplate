@@ -1,13 +1,14 @@
-<img src='https://github.com/RajLabMSSM/echoverseTemplate/raw/master/inst/hex/hex.png' height='300'><br><br>
+<img src= 'https://github.com/RajLabMSSM/echoverseTemplate/raw/master/inst/hex/hex.png' height= '300' ><br><br><br><br>
 [![](https://img.shields.io/badge/devel%20version-0.99.0-black.svg)](https://github.com/RajLabMSSM/echoverseTemplate)
 [![R build
 status](https://github.com/RajLabMSSM/echoverseTemplate/workflows/rworkflows/badge.svg)](https://github.com/RajLabMSSM/echoverseTemplate/actions)
 [![](https://img.shields.io/github/last-commit/RajLabMSSM/echoverseTemplate.svg)](https://github.com/RajLabMSSM/echoverseTemplate/commits/master)
-[![](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate/branch/master/graph/badge.svg)](https://app.codecov.io/gh/RajLabMSSM/echoverseTemplate)
+[![](https://img.shields.io/github/languages/code-size/RajLabMSSM/echoverseTemplate.svg)](https://github.com/RajLabMSSM/echoverseTemplate)
+[![](https://codecov.io/gh/RajLabMSSM/echoverseTemplate/branch/master/graph/badge.svg)](https://codecov.io/gh/RajLabMSSM/echoverseTemplate)
 [![License:
 GPL-3](https://img.shields.io/badge/license-GPL--3-blue.svg)](https://cran.r-project.org/web/licenses/GPL-3)
-¶ <h5> ¶ Author: <i>Brian M. Schilder</i> ¶ </h5>
-<h5> ¶ README updated: <i>Dec-22-2022</i> ¶ </h5>
+¶ <h4> ¶ Authors: <i>Brian Schilder, Jack Humphrey, Towfique Raj</i> ¶
+</h4>
 
 ## `echoverseTemplate`: echoversePackageDescription.
 
