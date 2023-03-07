@@ -19,9 +19,6 @@
     <loc>/news/index.html</loc>
   </url>
   <url>
-    <loc>/reference/args2vars.html</loc>
-  </url>
-  <url>
     <loc>/reference/index.html</loc>
   </url>
   <url>
@@ -29,9 +26,6 @@
   </url>
   <url>
     <loc>/reference/messager.html</loc>
-  </url>
-  <url>
-    <loc>/reference/source_all.html</loc>
   </url>
   <url>
     <loc>/reference/stopper.html</loc>
