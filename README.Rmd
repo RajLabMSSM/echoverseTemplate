@@ -1,6 +1,6 @@
 ---
 title: ""  
-author: "`r rworkflows::use_badges()`"
+author: "`r rworkflows::use_badges(add_doi = '10.1093/bioinformatics/btab658')`"
 output:
   github_document
 ---
@@ -30,7 +30,7 @@ library(`r pkg`)
 ## Documentation 
 
 ### [Website](https://rajlabmssm.github.io/`r pkg`) 
-### [Getting started](https://rajlabmssm.github.io/`r pkg`/articles/`r pkg`) 
+### [Get started](https://rajlabmssm.github.io/`r pkg`/articles/`r pkg`) 
 
 <hr>
 
