@@ -7,12 +7,14 @@ output:
 
 ```{r, echo=FALSE, include=FALSE}
 pkg <- read.dcf("DESCRIPTION", fields = "Package")[1]
-description <- read.dcf("DESCRIPTION", fields = "Description")[1]
+description <- read.dcf("DESCRIPTION", fields = "Description")[1] |> 
+    gsub(pattern="\n", replacement=" ")
 ```
  
 ## ``r pkg``: `r gsub("echoverse module: ","", description)`
 
-This R package is part of the *echoverse* suite that supports [`echolocatoR`](https://github.com/RajLabMSSM/echolocatoR):
+This R package is part of the *echoverse* suite that supports
+[`echolocatoR`](https://github.com/RajLabMSSM/echolocatoR):
 an automated genomic fine-mapping pipeline. 
 
 If you use ``r pkg``, please cite: 
