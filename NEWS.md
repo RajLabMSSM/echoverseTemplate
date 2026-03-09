@@ -1,3 +1,8 @@
+# echoverseTemplate 0.99.2
+
+## Bug fixes
+* Local R CMD check fixes and compatibility updates.
+
 # echoverseTemplate 0.99.1
 
 ## New features

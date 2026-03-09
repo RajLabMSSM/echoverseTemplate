@@ -1,7 +1,8 @@
 Package: echoverseTemplate
 Type: Package
-Title: echoverse module: echoversePackageTitle
-Version: 0.99.1
+Title: Echoverse Module: echoversePackageTitle
+Version: 0.99.2
+Date: 2026-03-08
 Authors@R: 
     c(person(given = "Brian",
            family = "Schilder",
@@ -19,7 +20,7 @@ Authors@R:
            email = "towfique.raj@mssm.edu",
            comment = c(ORCID = "0000-0002-9355-5704"))
            ) 
-Description: echoverse module: echoversePackageDescription.
+Description: Echoverse module: echoversePackageDescription.
 URL: https://github.com/RajLabMSSM/echoverseTemplate
 BugReports: https://github.com/RajLabMSSM/echoverseTemplate/issues
 Encoding: UTF-8
