@@ -40,6 +40,8 @@ Suggests:
     utils,
     rlang,
     methods
+Remotes:
+    github::neurogenomics/rworkflows
 RoxygenNote: 7.2.3
 VignetteBuilder: knitr
 License: GPL-3
