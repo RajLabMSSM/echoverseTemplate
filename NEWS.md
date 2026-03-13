@@ -1,3 +1,10 @@
+# echoverseTemplate 1.0.0
+
+## Bug fixes
+
+* Fix Rd formatting and `\dontrun{}` example guards.
+* Add `Rplots.pdf` and `*.tbi` to `.gitignore`.
+
 # echoverseTemplate 0.99.2
 
 ## Bug fixes
