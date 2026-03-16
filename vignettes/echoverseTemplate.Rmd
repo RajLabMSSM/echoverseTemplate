@@ -1,5 +1,5 @@
 ---
-title: Get started
+title: "Get started"
 author: '<h4>Authors: <i>`r auths <- eval(parse(text = gsub("person","c",read.dcf("../DESCRIPTION",
   fields = "Authors@R"))));paste(auths[names(auths)=="given"],auths[names(auths)=="family"],
   collapse = ", ")`</i></h4>'
@@ -11,32 +11,52 @@ vignette: |
   %\VignetteEngine{knitr::rmarkdown}
 ---
 
-
-```{r, echo=FALSE, include=FALSE}
+```{r setup, echo=FALSE, include=FALSE}
 pkg <- read.dcf("../DESCRIPTION", fields = "Package")[1]
-library(pkg, character.only = TRUE)
 ```
 
+# Introduction
 
-```R
-library(`r pkg`)
-```
+`echoverseTemplate` is a skeleton R package that serves as a starting point
+for creating new modules within the
+[echoverse](https://github.com/RajLabMSSM/echoverse) suite of
+genomic fine-mapping tools.
 
-# Examples
+It provides:
 
-```{r}
+- A ready-made package structure following Bioconductor conventions.
+- Internal utility functions (`messager`, `stopper`, `message_parallel`)
+  for consistent messaging across echoverse modules.
+- Pre-configured CI/CD via
+  [rworkflows](https://github.com/neurogenomics/rworkflows).
 
-```
+# Usage
 
+To create a new echoverse module from this template:
 
-# Session Info 
+1. Copy or fork the repository.
+2. Rename the package (update `DESCRIPTION`, `NAMESPACE`, vignettes, etc.).
+3. Add your exported functions under `R/`.
+4. Document with `roxygen2` and rebuild the `NAMESPACE`.
 
-<details> 
+# Internal utilities
+
+The package includes three internal helpers shared across echoverse modules:
+
+- **`messager()`** -- Conditionally print messages, with support for
+  parallel contexts.
+- **`stopper()`** -- Conditionally raise stop errors.
+- **`message_parallel()`** -- Send messages to the console from within
+  parallel processes.
+
+# Session Info
+
+<details>
 
 ```{r Session Info}
 utils::sessionInfo()
 ```
 
-</details>  
+</details>
 
 <br>
