@@ -3,4 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   echoverseTemplate: echoverseTemplate.html
-last_built: 2026-03-13T21:03Z
+last_built: 2026-03-16T05:05Z
+urls:
+  reference: https://rajlabmssm.github.io/echoverseTemplate/reference
+  article: https://rajlabmssm.github.io/echoverseTemplate/articles
